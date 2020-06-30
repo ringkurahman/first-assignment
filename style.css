@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --ff-primary: "Roboto", sans-serif;
+  --ff-secondary: "Fira Sans", sans-serif;
+
+  --fw-reg: 400;
+  --fw-extra: 500;
+  --fw-bold: 700;
+  --fw-h1: 900;
+  --fw-h2: 800;
+  --fw-h3: 600;
+
+  --fs-h1: 3rem;
+  --fs-h2: 2.5rem;
+  --fs-h3: 1.25rem;
+  --fs-body: 1rem;
+
+  --clr-accent: #ff7600;
+  --clr-h1: #343a40;
+  --clr-h2: #242424;
+  --clr-h3: #3b3b3b;
+  --clr-bio: #2c3e50;
+  --clr-body-font: #838694;
+}
+h1 {
+  font-family: var(--ff-secondary);
+  font-size: var(--fs-h1);
+  font-weight: var(--fw-h1);
+  color: var(--clr-h1);
+}
+h2 {
+  font-family: var(--ff-secondary);
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-h2);
+  color: var(--clr-h2);
+}
+h3 {
+  font-family: var(--ff-secondary);
+  font-size: var(--fs-h3);
+  font-weight: var(--fw-h3);
+  color: var(--clr-h3);
+}
+
+body {
+  margin: 0;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-body);
+  font-weight: var(--fw-reg);
+  line-height: 1.6;
+  color: var(--clr-body-font);
+}
+/* Custom Style Here*/
+
